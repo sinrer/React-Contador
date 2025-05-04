@@ -1,0 +1,41 @@
+/* Aplica a todos los elementos: elimina el margen y el relleno por defecto del navegador */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos generales para el elemento html y body */
+html, 
+body {
+  font-size: 18px; /* Define el tamaño base de la fuente para la página */
+  background-color: #f5f6f7; /* Color de fondo gris claro */
+}
+
+/* Estilos para todos los encabezados h1 */
+h1 {
+  max-width: 940px; /* Limita el ancho máximo del título */
+  font-size: 2.5em; /* Tamaño de la fuente relativo al font-size base (2.5 * 18px) */
+  font-family: Lato, sans-serif; /* Fuente principal: Lato. Si no está disponible, usa una genérica sans-serif */
+  font-weight: 700; /* Fuente en negrita (peso 700) */
+  line-height: 1.1; /* Altura de línea ligeramente mayor que el tamaño de la fuente */
+  margin: 40px 0; /* Márgenes superior e inferior de 40px, laterales de 0 */
+}
+
+/* Estilos para el contenedor con clase "App" */
+.App {
+  min-height: 100vh; /* Altura mínima de la ventana del navegador (100% de la altura de la pantalla) */
+  display: flex; /* Usa Flexbox para alinear elementos */
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas si es necesario */
+  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: center; /* Centra horizontalmente el contenido */
+  text-align: center; /* Centra el texto dentro del contenedor */
+}
+
+/* Estilos para el contenedor principal de los testimonios */
+.contenedor-principal {
+  min-height: 600px; /* Altura mínima de 600px */
+  display: flex; /* Usa Flexbox */
+  flex-wrap: wrap; /* Permite que el contenido se distribuya en varias líneas */
+  align-items: center; /* Centra verticalmente los elementos hijos */
+  justify-content: center; /* Centra horizontalmente los elementos hijos */
+}
